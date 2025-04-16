@@ -86,6 +86,7 @@ export default function Home() {
                     placeholder='Add a Name of your model'
                 />
 
+<p>Show your previous model</p>
 <select className='select'
         // value={selectedModel}
         onChange={handleModelChange}
