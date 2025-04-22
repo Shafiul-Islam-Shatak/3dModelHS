@@ -24,7 +24,7 @@ const [modelURL , setModelURL] = useState('')
         fetchModel();
       }, []);
     
-
+console.log(modelURL)
     return (
         <div style={{ width: '100vw', height: '100vh', position: 'relative' }}>
             <Canvas dpr={[1, 2]} shadows camera={{ fov: 45 }}>
